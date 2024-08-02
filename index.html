@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koala Tea Foods</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="nav-left" onclick="navigate('catalog.html')">
+                ☰ Browse
+            </div>
+            <div class="logo" onclick="navigate('index.html')">
+                Koala Tea Foods 
+            </div>
+            <div class="nav-right" onclick="navigate('cart.html')">
+                Cart
+            </div>
+        </div>
+    </header>
+    <main id="content">
+        <div id="home-page">
+            <h1>Welcome to Koala Tea Foods!</h1>
+            <h2>Sale Items</h2>
+            <div class="product-list" id="sale-items">
+                <!-- Sale items will be loaded here by JS -->
+            </div>
+            
+        </div>
+    </main>
+    
+    <!-- Toast notification container -->
+    <div id="toast"></div> 
+
+    <script src="js/script.js"></script>
+</body>
+</html>

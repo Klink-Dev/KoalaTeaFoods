@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Koala Tea Foods</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav">
+
+            <div class="nav-left" onclick="navigate('catalog.html')">
+                ☰ Browse
+            </div>
+
+            <div class="logo" onclick="navigate('index.html')">
+                Koala Tea Foods
+            </div>
+
+            <div class="nav-right" onclick="navigate('index.html')">
+                X
+            </div>
+        </div>
+    </header>
+
+    <main id="content">
+        <h1>Your Shopping Cart</h1>
+
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be loaded here by JS -->
+        </div>
+        <h2>Total: $<span id="total-cost">0.00</span></h2>
+        <button class="checkout">Checkout</button>
+    </main>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
